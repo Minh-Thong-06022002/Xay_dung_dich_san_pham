@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    background-color: #eee;
+    text-align: center;
+}
+.main .header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: #eeeeee;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.main  .header-img img{
+    width: 280px;
+    height: 40px;
+    margin-left: 60px;
+}
+.main .header .nav-bar{
+    display: flex;
+}
+.main .nav-bar .nav-link{
+    margin-right: 120px;
+    font-size: 18px;
+
+} 
+.main .nav-link a{
+    text-decoration: none;
+    color: #000;
+}
+.main .form h2{
+    margin: 15px auto;
+    font-size: 23px;
+    margin-top: 70px;
+}
+.main .form .email{
+    padding: 5px 80px 5px 5px;
+    margin-bottom: 15px;
+   
+}
+.main .form .btn{
+    font-size: 17px;
+    font-weight: 800;
+    padding: 1px 15px;
+    letter-spacing: 1px;
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 100px;
+}
+.main .content li{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.main .content span{
+   
+    width: 820px;
+    text-align: left;
+}
+.main .content i{
+    width: 125px;
+    height: 35px;
+    font-size: 55px;
+    color: #ff8c00;
+    margin: 40px 60px;
+}
+.main .content h4{
+    font-size: 23px;
+}
+.main .video iframe{
+    margin: 70px auto;
+}
+.main .container {
+    display: flex;
+    width: 100%;
+    height: 315px;
+    justify-content: center;
+}
+.main .container .trombone{
+    border: 1px solid black;
+    margin-right: 25px;
+    width: 315px;
+    height: 315px;
+}
+.main .trombone li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.main .trombone .box1{
+    font-size: 20px;
+    background-color: #ddd;
+    width: 100%;
+    height: 50px;
+    padding: 15px auto;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+}
+.main .trombone p{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+.main .trombone .select{
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    background-color: #f1c40f;
+    border: none;
+}
+.main .footer{
+    background-color: #ddd;
+    width: 1020px;
+    height: 80px;
+    margin: 30px auto 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+.main .footer a{
+    text-decoration: none;
+    color: black;
+}
+.main .footer .foot{
+    margin-top: 20px;
+}
+.main .footer .foot-one{
+    margin-right: 15px;
+}
+.main .footer p{
+    font-size: 14px;
+}
+
